@@ -1,0 +1,21 @@
+{
+  "name": "studio-3-test",
+  "version": "1.0.0",
+  "description": "Basic static site starter using Vite, Tailwind CSS, and SCSS",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "esbuild": "^0.27.4",
+    "sass": "^1.98.0",
+    "tailwindcss": "^4.2.2",
+    "vite": "^8.0.3"
+  }
+}

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Studio 3 Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Open+Sans:wdth@75..100&display=swap" rel="stylesheet">
+    <link rel="icon" href="./favicon.ico" sizes="any">
+	</head>
+	<body>
+    <!-- skip to content link for SR users -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:top-2 focus:left-2 focus:bg-white focus:text-black focus:px-4 focus:py-2 focus:rounded">Skip to main content</a>
+    
+    <!-- navigation -->
+    <header class="fixed top-0 left-0 w-full z-50" aria-label="Site header">
+      <!-- eyebrow -->
+      <div class="eyebrow bg-primary pt-[24px] pb-[18px]">
+        <div class="container">
+          <div class="eyebrow-inner grid grid-cols-3 gap-6 lg:gap-4 items-center text-white">
+            <!-- left -->
+            <div class="eyebrow-left">
+              <ul class="flex justify-start md:justify-center items-center gap-4 md:gap-8 lg:gap-[40px] md:pt-1" role="list">
+                <li class="mb-0"><a href="#"><img src="./images/facebook-logo.svg" alt="Facebook" class="hover:opacity-60 transition-opacity duration-150 ease-in-out"></a></li>
+                <li class="mb-0"><a href="#"><img src="./images/twitter-logo.svg" alt="Twitter" class="hover:opacity-60 transition-opacity duration-150 ease-in-out"></a></li>
+                <li class="mb-0"><a href="#"><img src="./images/insta-logo.svg" alt="Instagram" class="hover:opacity-60 transition-opacity duration-150 ease-in-out"></a></li>
+                <li class="mb-0"><a href="#"><img src="./images/youtube-logo.svg" alt="YouTube" class="hover:opacity-60 transition-opacity duration-150 ease-in-out"></a></li>
+              </ul>
+            </div>
+            <!-- center -->
+            <div class="eyebrow-center col-span-3 md:col-span-1 order-first md:order-none text-center">
+              <a href="#" class="inline-block"><img src="./images/avalon-lipo-logo.svg" alt="Avalon Lipo & Aesthetics Logo"></a>
+            </div>
+            <!-- right -->
+            <div class="eyebrow-right col-span-2 md:col-span-1 text-right md:text-center md:pt-1">
+              <a href="#" class="h4 hover:opacity-60 transition-opacity duration-150 ease-in-out">Schedule A Consultation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- main navigation -->
+      <nav aria-label="Main Navigation">
+        
+      </nav>
+    </header>
+
+		<main id="main-content">
+      <!-- hero -->
+      <section class="hero relative pt-40 pb-28 md:pt-40 md:pb-44 lg:pt-[350px] lg:pb-[250px] bg-primary bg-cover bg-[left_center] md:bg-center" style="background-image: url('./images/hero-bg.jpg');">
+				<div class="container relative z-1">
+          <div class="text-center text-white">
+            <!-- watermark -->
+            <img src="./images/avalon-lipo-mark.svg" alt="Avalon Lipo & Aesthetics Watermark" class="block mx-auto mb-2" width="130" height="280">
+            <!-- title -->
+            <h1 class="mb-6">Avalon Lipo & Aesthetics</h1>
+            <!-- subtitle -->
+            <h3>Serving San Diego & Carlsbad as Your Liposuction & Body Specialists</h3>
+          </div>
+        </div>
+        <!-- welcome video -->
+        <a href="#" aria-label="Watch welcome video" class="text-center block absolute left-0 bottom-0 p-2 lg:pb-4 w-[80px] h-[80px] md:w-[150px] md:h-[150px] lg:w-[210px] lg:h-[210px] flex flex-col justify-center md:justify-end items-center bg-primary text-white z-10 hover:bg-primary-dark">
+          <img src="./images/play-icon.svg" alt="" aria-hidden="true" class="block mx-auto md:mb-4 lg:mb-8 w-[40px] h-[40px] lg:w-[60px] lg:h-[60px]" width="60" height="60">
+          <span class="large hidden md:block mb-2">Watch Welcome Video</span>
+        </a>
+			</section>
+
+      <!-- intro side by side -->
+      <section class="intro">
+        <div class="container">
+          <div class="intro-inner flex flex-wrap flex-row justify-center gap-8 md:gap-16 xl:gap-[140px]">
+            <div class="md:flex-1 intro-image-wrapper pt-24 pb-16 md:pt-24 md:pb-24 lg:pt-[181px] lg:pb-[150px]">
+              <img src="./images/intro-image.png" width="700" height="700" alt="Avalon Lipo & Aesthetics Image">
+            </div>
+            <div class="md:flex-1 intro-content-wrapper pt-12 pb-16 md:pt-24 md:pb-24 lg:pt-[181px] lg:pb-[150px] flex flex-col justify-center items-start">
+              <h6 class="text-primary mb-[28px]">Overview</h6>
+              <h2 class="mb-[20px]">Welcome to Avalon Lipo & Aesthetics</h2>
+              <p class="md:max-w-[90%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</p>
+              <a href="#" class="btn">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+		</main>
+		<script type="module" src="/src/main.js"></script>
+	</body>
+</html>
